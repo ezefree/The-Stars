@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Stars Store - Nosotros</title>
+  <link rel="icon" href="../img/logopag.ico">
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    /* 🎨 Estilos personalizados para las imágenes del equipo */
+    .team-img {
+      width: 200px;              /* tamaño uniforme */
+      height: 200px;             /* igual alto y ancho para mantener el círculo */
+      object-fit: cover;         /* recorta sin deformar */
+      border-radius: 50%;        /* forma circular perfecta */
+      margin: 20px auto 0;       /* centrado */
+      display: block;
+      border: 4px solid #ffc107; /* borde amarillo (puedes cambiarlo o quitarlo) */
+      box-shadow: 0 0 10px rgba(0,0,0,0.2); /* sombra suave */
+    }
+
+    /* Ajuste visual del card */
+    .card {
+      border-radius: 15px;
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+  </style>
+</head>
+
+<body class="bg-light">
+
+  <!-- 🟨 Alerta inicial -->
+  <script>
+    alert("¿Querés conocer más sobre nuestro equipo?");
+  </script>
+
+  <!-- 🔹 Barra de navegación -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand fw-bold text-dark" href="../index.html">The Stars Store</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link text-dark fw-bold" href="../index.html">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link text-dark fw-bold" href="producto.html">Productos</a></li>
+          <li class="nav-item"><a class="nav-link text-dark fw-bold" href="contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- 🔹 Encabezado -->
+  <header class="text-center py-5 bg-warning text-dark">
+    <h1 class="fw-bold">👩‍💻 Conocé al equipo de The Stars Store</h1>
+    <p class="lead">Pasión, creatividad y compromiso detrás de cada producto que ofrecemos.</p>
+  </header>
+
+  <!-- 🔹 Sección de descripción -->
+  <section class="container my-5">
+    <div class="text-center mb-5">
+      <h2 class="fw-bold text-danger">Nuestra Misión</h2>
+      <p class="fs-5 text-muted">
+        En <strong>The Stars Store</strong>, creemos que cada comida puede ser una experiencia especial.  
+        Somos un equipo dedicado a ofrecer productos de calidad, frescos y sabrosos, combinando  
+        tecnología y diseño para brindar una tienda online moderna, rápida y fácil de usar.  
+      </p>
+    </div>
+
+    <!-- 🔹 Sección del equipo -->
+    <div class="row text-center">
+
+      <!-- 👩‍💻 Elizabeth Córdoba -->
+      <div class="col-md-4 mb-4">
+        <div class="card shadow-sm border-0 p-3">
+          <img src="../img/Elizabeth.png" class="team-img" alt="Elizabeth Córdoba">
+          <div class="card-body">
+            <h4 class="card-title">Elizabeth Cordoba</h4>
+            <p class="card-text text-muted">Diseñadora UI/UX y Desarrolladora Frontend</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- 👩 Belinda Juárez -->
+      <div class="col-md-4 mb-4">
+        <div class="card shadow-sm border-0 p-3">
+          <img src="../img/beli.jpg" class="team-img" alt="Belinda Juárez">
+          <div class="card-body">
+            <h4 class="card-title">Belinda Juárez</h4>
+            <p class="card-text text-muted">Desarrolladora Frontend</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- 👨 Joaquín San Blas -->
+      <div class="col-md-4 mb-4">
+        <div class="card shadow-sm border-0 p-3">
+          <img src="../img/joa.jpg" class="team-img" alt="Joaquín San Blas">
+          <div class="card-body">
+            <h4 class="card-title">Joaquín San Blas</h4>
+            <p class="card-text text-muted">Gestor de Proyecto y Coordinador</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 🔹 Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    <p class="mb-0">© 2025 The Stars Store — Desarrollado por Elizabeth, Belinda y Joaquín.</p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
